@@ -23,6 +23,8 @@
 
 ## Contributing
 
+- **Chloé VIEILLE**
+- **Nicolas FREMONDIERE**
 - **ProgOwer**
 
 ## Licence
