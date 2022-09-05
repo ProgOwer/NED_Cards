@@ -15,7 +15,7 @@
 
 ## Description
 
-**NED Cards (Never Ending Destiny Cards)** is a **Web Cross Platform** **Card Game** based on **[Reigns](https://www.devolverdigital.com/games/reigns)**.
+**NED Cards (Never Ending Destiny Cards)** is a **Web Cross Platform** **Card Game** inspired by **[Reigns](https://www.devolverdigital.com/games/reigns)**.
 
 ## Documentations
 
