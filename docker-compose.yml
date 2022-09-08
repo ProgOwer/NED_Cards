@@ -1,0 +1,23 @@
+---
+version: '3.6'
+
+services:
+  ned-cards:
+    container_name: ned-cards
+    image: ned-cards:0.0.1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:19006"]
+      interval: 1m
+      timeout: 30s
+      retries: 3
+      start_period: 30s
+    environment:
+    - 'TZ=Europe/Paris'
+    volumes:
+    - ./src:/app:rw
+    ports:
+    - 19006:19006
+    restart: unless-stopped
