@@ -24,7 +24,7 @@
 
 ## Access
 
-- [NED Cards Development (Local)](http://localhost:19000)
+- [NED Cards Development (Local)](http://localhost:19006)
 
 ## Getting Started
 
@@ -42,13 +42,16 @@
 ### Build
 
 ```bash
+# Development Build
 docker-compose build
+# Development Dependencies Installation
 docker-compose run --service-ports --rm ned-cards npm install
 ```
 
 ### Deploy
 
 ```bash
+# Development Deploy
 docker-compose up
 ```
 
